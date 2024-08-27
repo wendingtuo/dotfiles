@@ -143,7 +143,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-. "$HOME/.cargo/env"
 alias nv=nvim
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
