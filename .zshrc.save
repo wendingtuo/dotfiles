@@ -101,7 +101,7 @@ alias la='ls -lah --color'
 alias nv='nvim'
 
 # Shell integrations
-source <(fzf --zsh)
+source <(fzf --zsh)sudo
 eval "$(zoxide init --cmd cd zsh)"
 export PATH="$PATH:/opt/nvim-linux64/bin"
 
