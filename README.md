@@ -28,7 +28,7 @@ $ stow .
 ## Adding new files
 
 To add new files to the dotfiles directory:
-1. `mv` the file from ~/ or ~/.config to ~/dotfiles/ or ~/dotfiles/.config (respectively)
+1. `mv` the file from `~/` to `~/dotfiles/` or from `~/.config` to `~/dotfiles/.config`
 2. `cd ~/dotfiles`
 3. `stow .`
 4. `git add .`
