@@ -18,7 +18,7 @@ First, check out the dotfiles repo in your $HOME directory using git
 git clone git@github.com:wendingtuo/dotfiles.git
 ```
 
-then use GNU stow to create symlinks
+`cd dotfiles` and then use GNU stow to create symlinks
 
 ```sh
 stow .
