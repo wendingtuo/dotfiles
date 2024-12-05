@@ -6,7 +6,7 @@ This directory contains the dotfiles for my system
 
 Ensure you have the following installed on your system
 
-```
+```sh
 sudo apt install git stow
 ```
 
@@ -14,15 +14,14 @@ sudo apt install git stow
 
 First, check out the dotfiles repo in your $HOME directory using git
 
-```
-$ git clone git@github.com/wendingtuo/dotfiles.git
-$ cd dotfiles
+```sh
+git clone git@github.com:wendingtuo/dotfiles.git
 ```
 
 then use GNU stow to create symlinks
 
-```
-$ stow .
+```sh
+stow .
 ```
 
 ## Adding new files
